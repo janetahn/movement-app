@@ -22,8 +22,7 @@
 4. Save your workout to view it anytime in your history.
 5. Use the **Settings** tab to adjust preferences or add custom notes to your workouts.
 
-## Future Improvements (optional)
-- Heart rate monitor integration
-- Advanced workout analysis (e.g., pace trends, elevation gain)
-- Goal setting and achievement badges
-- Social features like challenges and sharing workouts
+## Installation
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/janetahn/movement-app.git
