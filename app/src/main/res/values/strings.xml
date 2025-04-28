@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">MyRuns5</string>
+    <string name="profile_title">Profile photo:</string>
+    <string name="change_button">Change</string>
+    <string name="name_title">Name:</string>
+    <string name="type_name">Your name here</string>
+    <string name="email_title">Email:</string>
+    <string name="type_email">Your Email here</string>
+    <string name="phone_title">Phone:</string>
+    <string name="type_phone">Your phone number here</string>
+    <string name="gender_title">Gender:</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="class_title">Class:</string>
+    <string name="class_example">e.g. 2012</string>
+    <string name="major_title">Major:</string>
+    <string name="major_example">e.g. Computing Science</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+
+    <string name="start_title">START</string>
+    <string name="input_type">Input Type</string>
+    <string-array name="InputTypes">
+        <item>Manual Entry</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+    <string name="manual_entry">Manual Entry</string>
+    <string name="gps">GPS</string>
+    <string name="automatic">Automatic</string>
+
+    <string-array name="ActivityTypes">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Other</item>
+    </string-array>
+    <string name="activity_type">Activity Type</string>
+    <string name="running">Running</string>
+    <string name="walking">Walking</string>
+    <string name="standing">Standing</string>
+    <string name="cycling">Cycling</string>
+    <string name="hiking">Hiking</string>
+    <string name="downhill_skiing">Downhill Skiing</string>
+    <string name="cross_country_skiing">Cross-Country Skiing</string>
+    <string name="snowboarding">Snowboarding</string>
+    <string name="skating">Skating</string>
+    <string name="swimming">Swimming</string>
+    <string name="mountain_biking">Mountain Biking</string>
+    <string name="wheelchair">Wheelchair</string>
+    <string name="elliptical">Elliptical</string>
+    <string name="other">Other</string>
+
+    <string name="history_title">HISTORY</string>
+    <string name="settings_title">SETTINGS</string>
+<!--settings-->
+    <string name="acc_pref">Account Preferences</string>
+    <string name="name_email">Name, Email, Class, etc</string>
+    <string name="user_profile">User Profile</string>
+    <string name="privacy_setting">Privacy Setting</string>
+    <string name="privacy_summary">Posting your records anonymously</string>
+    <string name="add_settings">Additional Settings</string>
+    <string name="unit_pref">Unit Preference</string>
+    <string name="unit_summary">Select the units</string>
+    <string name="comments">Comments</string>
+    <string name="comments_summary">Please enter your comments</string>
+    <string name="misc">Misc.</string>
+    <string name="webpage">Webpage</string>
+    <string name="web_summary">https://www.sfu.ca/computing.html</string>
+
+<!--unit preferences    -->
+    <string-array name="unit_preferences">
+        <item>Metric (Kilometers)</item>
+        <item>Imperial (Miles)</item>
+    </string-array>
+
+    <string-array name="pref_duration">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+<!--keys-->
+    <string name="user_key">user_key</string>
+    <string name="privacy_key">privacy_key</string>
+    <string name="unit_key">unit_key</string>
+    <string name="comment_key">comment_key</string>
+    <string name="web_key">web_key</string>
+
+<!--change dialog    -->
+    <string name="pick_title">Pick Profile Picture</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="select_gallery">Select from Gallery</string>
+
+<!--manual entry    -->
+    <string-array name="manual_entries">
+        <item>Date</item>
+        <item>Time</item>
+        <item>Duration</item>
+        <item>Distance</item>
+        <item>Calories</item>
+        <item>Heart Rate</item>
+        <item>Comment</item>
+    </string-array>
+
+<!--input-->
+    <string name="inputType">Input Type</string>
+    <string name="activityType">Activity Type</string>
+    <string name="dateAndTime">Date and Time</string>
+    <string name="duration">Duration</string>
+    <string name="distance">Distance</string>
+    <string name="calories">Calories</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="comment_entry">Comment</string>
+
+    <string name="delete">Delete</string>
+
+</resources>

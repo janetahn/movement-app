@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/acc_pref"
+        app:iconSpaceReserved="false">
+        <Preference
+            app:iconSpaceReserved="false"
+            android:title="@string/name_email"
+            android:summary="@string/user_profile"
+            android:key="@string/user_key"/>
+
+        <CheckBoxPreference
+            app:iconSpaceReserved="false"
+            app:allowDividerAbove="true"
+            android:defaultValue="false"
+            android:key="@string/privacy_key"
+            android:title="@string/privacy_setting"
+            android:summary="@string/privacy_summary"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/add_settings"
+        app:iconSpaceReserved="false">
+        <ListPreference
+            app:iconSpaceReserved="false"
+            android:key="@string/unit_key"
+            android:title="@string/unit_pref"
+            android:summary="@string/unit_summary"
+            android:dialogTitle="@string/unit_pref"
+            android:defaultValue="0"
+            android:entries="@array/unit_preferences"
+            android:entryValues="@array/pref_duration"/>
+
+        <EditTextPreference
+            app:iconSpaceReserved="false"
+            app:allowDividerAbove="true"
+            android:title="@string/comments"
+            android:key="@string/comment_key"
+            android:summary="@string/comments_summary"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/misc"
+        app:iconSpaceReserved="false">
+        <Preference
+            app:iconSpaceReserved="false"
+            android:key="@string/web_key"
+            android:title="@string/webpage"
+            android:summary="@string/web_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>
