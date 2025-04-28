@@ -1,6 +1,6 @@
-# Movement
+# MyRuns
 
-**Movement** is a flexible and easy-to-use fitness tracking app that lets you log your workouts your way. Whether you want to manually enter your exercise details or have the app automatically track your movement, FitTrack gives you full control over your fitness journey.
+**MyRuns** is a flexible and easy-to-use fitness tracking app that lets you log your workouts your way. Whether you want to manually enter your exercise details or have the app automatically track your movement, FitTrack gives you full control over your fitness journey.
 
 ## Features
 - 🏃 **Wide Activity Selection**: Pick from a long list of activities like running, walking, biking, and more.
